@@ -15,12 +15,12 @@ h1 {
 
 .half-width {
     width: 50%;
-    margin-left: 40px;
-    padding: 20px 40px;
+    padding-left: 5%;
+
 
 }
 
-section {
+.flexible-contaier {
     display: flex;
     margin-bottom: 100px;
 
@@ -48,4 +48,39 @@ section {
     background-repeat: no-repeat;
     background-position: right;
 
+}
+
+.experiances-area {
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experiance-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 8px;
+
+
+}
+
+#baby-web-develop {
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#border-color {
+    border-left: 5px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+
+.footer-text {
+    text-align: center;
+    margin-bottom: 20px;
 }
